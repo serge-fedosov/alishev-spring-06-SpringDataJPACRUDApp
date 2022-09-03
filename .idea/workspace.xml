@@ -10,23 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a9981a-ca36-4aeb-b0ad-81ae89fdac2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/models/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/repositories/PeopleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/repositories/PeopleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/services/PeopleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringDataJPACRUDApp/WEB-INF/classes/ru/alishev/springcourse/services/PeopleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/repositories/PeopleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/repositories/PeopleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/services/PeopleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/services/PeopleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/java/alishev/SpringDataJPACRUDApp"
+    "last_opened_file_path": "C:/java/alishev/SpringDataJPACRUDApp",
+    "spring.configuration.checksum": "8cccbb61ba9388fccd056e32ac1d5824"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -181,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662142797400</updated>
-      <workItem from="1662142799002" duration="7600000" />
+      <workItem from="1662142799002" duration="7821000" />
+      <workItem from="1662182353951" duration="1938000" />
     </task>
     <servers />
   </component>
@@ -217,7 +209,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java</url>
-          <line>49</line>
+          <line>51</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
