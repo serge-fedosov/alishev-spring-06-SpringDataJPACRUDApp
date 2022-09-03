@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a9981a-ca36-4aeb-b0ad-81ae89fdac2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Mood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/953d02d4-888a-4e5e-90bd-028e7114d723/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -173,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662142797400</updated>
       <workItem from="1662142799002" duration="7821000" />
-      <workItem from="1662182353951" duration="1938000" />
+      <workItem from="1662182353951" duration="2243000" />
     </task>
     <servers />
   </component>
@@ -209,7 +207,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

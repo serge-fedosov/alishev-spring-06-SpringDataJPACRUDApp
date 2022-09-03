@@ -3,15 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-13441||-9223372036854775808|c|G
-13441||10|c|G
-13441||10|C|G
-13441||10|T|G</Grants>
-      <IntrospectionStateNumber>3797</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3801</IntrospectionStateNumber>
       <ServerVersion>13.8</ServerVersion>
       <StartupTime>1662182029</StartupTime>
       <TimeZones>true ACDT
@@ -812,7 +804,7 @@ false Zulu
 13158||10|C|G
 13158||-9223372036854775808|U|G
 13158||10|U|G</Grants>
-      <IntrospectionStateNumber>3797</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3801</IntrospectionStateNumber>
       <ObjectId>16503</ObjectId>
       <Relations>sequence|table|16657|16659|1
 sequence|table|16665|16667|1
@@ -4142,7 +4134,7 @@ sequence|table|16665|16667|1
     <schema id="254" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>3797</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3801</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>287</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4167,7 +4159,7 @@ sequence|table|16665|16667|1
     </table>
     <table id="258" parent="254" name="person">
       <ObjectId>16659</ObjectId>
-      <StateNumber>3796</StateNumber>
+      <StateNumber>3800</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4265,7 +4257,13 @@ sequence|table|16665|16667|1
       <StateNumber>3796</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="272" parent="258" name="person_pkey">
+    <column id="272" parent="258" name="mood">
+      <DataType>integer|0s</DataType>
+      <Position>8</Position>
+      <StateNumber>3800</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="273" parent="258" name="person_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16663</ObjectId>
@@ -4274,7 +4272,7 @@ sequence|table|16665|16667|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="273" parent="258" name="person_email_key">
+    <index id="274" parent="258" name="person_email_key">
       <ColNames>email</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16679</ObjectId>
@@ -4285,14 +4283,14 @@ sequence|table|16665|16667|1
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="274" parent="258" name="person_pkey">
+    <key id="275" parent="258" name="person_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16664</ObjectId>
       <Primary>1</Primary>
       <StateNumber>3747</StateNumber>
       <UnderlyingIndexId>16663</UnderlyingIndexId>
     </key>
-    <key id="275" parent="258" name="person_email_key">
+    <key id="276" parent="258" name="person_email_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16680</ObjectId>
       <StateNumber>3772</StateNumber>
