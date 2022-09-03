@@ -128,9 +128,6 @@ public class Person {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", email='" + email + '\'' +
-                ", items=" + items +
-                ", dateOfBirth=" + dateOfBirth +
-                ", createdAt=" + createdAt +
                 '}';
     }
 }
